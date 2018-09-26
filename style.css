@@ -1,24 +1,81 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.4;
   font-size: 100%;
-
 }
 
-#navi-header{
-  background-color: rgb(40,44,52);
+#navi-header {
+  background-color: rgb(40, 44, 52);
+  height: 60px;
 }
-.wrapper{
+
+.wrapper {
   width: 90%;
   margin: auto;
 }
-ul{
+
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+
+/* Das ist ein Kommentar*/
+#navi-header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.8s ease-in color;
+}
+
+#navi-header a:hover {
+  color: rgb(69, 139, 116);
+}
+
+#menu {
+  display: none;
+}
+
+#burger {
+  background-color: transparent;
+  color: #fff;
+  float: right;
+}
+#menu.show{
+  display: block;
+  background-color: rgb(40, 44, 52);
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  text-align: center;
+}
+
+@media (min-width:1024px) {
+  #navi-header li {
+    display: inline;
+    margin-left: 2rem;
+  }
+
+  #menu {
+    float: right;
+    display: block;
+    margin-top: 19px;
+  }
+
+  #burger {
+    display: none;
+  }
+}
+
+header img {
+  margin-top: 10px;
+}
+
+#burger
