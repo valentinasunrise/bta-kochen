@@ -8,6 +8,14 @@
       <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=yes">
       <link rel="stylesheet" href="fonts/icons.css">
       <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif" rel="stylesheet">
+      <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+      <link rel="manifest" href="site.webmanifest">
+      <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="msapplication-TileColor" content="#00aba9">
+      <meta name="theme-color" content="#ffffff">
 
   </head>
   <body>
@@ -105,10 +113,11 @@
                 </article>
             </div>
           </section>
+
           <aside class="" id="sidebar">
             <section id="suche">
               <h2>Finde deine Rezepte</h2>
-              <form class="" action="https://www.google.de/search" method="get">
+              <form class="formular" action="https://www.google.de/search" method="get">
                 <input type="search" name="q" value="" placeholder="Mmmmmh">
                 <button type="submit" name="button">
                   <span class="icon-search"></span>
@@ -116,13 +125,22 @@
 
               </form>
             </section>
-
+            <hr>
             <section id="about">
+              <img src="img/koch.jpg" alt="der Koch">
+              <h2>Hier koch der Chef</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
             </section>
-
+            <hr>
             <section id="affiliate">
+              <h2>Zu faul zum Kochen?</h2>
+              <img src="img/ravioli.jpg" alt="ravioli dose">
+              <p>Hol dir tolle Fertiggerichte bei</p>
 
+              <a id="amazonlink" href="https://www.amazon.de/Frische-Fertiggerichte/b?ie=UTF8&node=9732440031" target="blank">
+                <img src="img/amazon-fresh.gif" alt="amazonfresh">
+              </a>
             </section>
 
           </aside>
@@ -130,6 +148,34 @@
 
 
       </main>
+      <footer id="footer">
+        <div class="wrapper footerwrapper">
+          <ul class="left">
+            <li>
+              <a href="#">Kontakt</a>
+            </li>
+            <li>
+              <a href="#">Impressum</a>
+            </li>
+            <li>
+              <a href="#">Datenschutz</a>
+            </li>
+          </ul>
+
+          <ul class="right social">
+            <li>
+              <a href="#" class="icon-facebook"></a>
+            </li>
+            <li>
+              <a href="#" class="icon-youtube"></a>
+            </li>
+            <li>
+              <a href="#"class="icon-instagram"></a>
+            </li>
+          </ul>
+
+        </div>
+      </footer>
 
 
       <!--hier kommt das Javascript für das Menü-->

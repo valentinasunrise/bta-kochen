@@ -4,11 +4,13 @@
 
 body {
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   line-height: 1.4;
   font-size: 100%;
 }
-
+p{
+  font-family: 'PT Serif', serif;
+}
 #navi-header {
   background-color: rgb(40, 44, 52);
   height: 60px;
@@ -113,6 +115,81 @@ article h3{
 .card{
   margin-bottom: 1rem;
 }
+.flex h2{
+  text-transform: uppercase;
+}
+#sidebar h2{
+  text-align: center;
+  text-transform: uppercase;
+}
+.formular{
+    border: solid 1px #000;
+    border-radius: 4px;
+    display: flex;
+    height: 2rem;
+}
+
+.formular input{
+  border: none;
+  flex: 1 1 auto;
+  padding:0.5rem;
+  transition: 0.4s;
+}
+.formular input:focus{
+  background-color: #000;
+  color: #fff;
+}
+.formular button{
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+#sidebar{
+  text-align: center;
+  margin-left: 50px;
+}
+#about{
+  text-align: center;
+  margin-top: 32px;
+}
+#about img{
+  width:50%;
+  border-radius: 100px;
+  margin: auto;
+
+}
+#sidebar img{
+  width:50%;
+  margin:auto;
+}
+hr{
+  border-style: dotted;
+}
+#footer{
+  background-color: rgb(40, 44, 52);
+}
+
+#footer a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.social li{
+  display: inline-block;
+
+}
+.left li, .social{
+  text-align: center;
+}
+footer{
+  margin-top: 2rem;
+  padding: 4rem 0 2rem 0;
+}
+.right{
+  padding: 1rem 0 2rem 0;
+  font-size: 2rem;
+}
 
 @media (min-width:1024px) {
   #navi-header li {
@@ -154,7 +231,20 @@ article h3{
   }
   #sidebar{
     width:33.333%;
-    
   }
 
+
+  #footer .wrapper{
+    display: flex;
+    height:200px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .left li{
+    display: inline-block;
+  }
+  footer{
+    padding: 0;
+  }
 }
