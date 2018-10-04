@@ -1,4 +1,4 @@
-* {
+*{
   box-sizing: border-box;
 }
 
@@ -231,6 +231,10 @@ footer{
   }
   #sidebar{
     width:33.333%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0e992f75dd0e474d84ebddcd1c3cb8e877531371
   }
 
 
