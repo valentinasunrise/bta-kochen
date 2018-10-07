@@ -47,6 +47,12 @@ ul {
   color: #fff;
   float: right;
 }
+#burger{
+border: none;
+font-size: 2rem;
+margin-top: 11px;
+}
+
 #menu.show{
   display: block;
   background-color: rgb(40, 44, 52);
@@ -135,11 +141,7 @@ article h3{
   margin-top: 10px;
   }
 
-  #burger{
-  border: none;
-  font-size: 2rem;
-  margin-top: 11px;
-  }
+
   .flex{
   display: flex;
   }
